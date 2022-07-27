@@ -58,6 +58,9 @@ a{
     margin: 50px 0 ;
     color: var(--secondary-color);
 }
+p{
+    color: var(--text-primary);
+}
 
 
 
@@ -76,7 +79,7 @@ a{
     gap:40px
 }
 .header_nav_items li a{
-    color:var(--text-primary);
+    color:var(--secondary-color);
     font-weight: 500;
     transform: all .3s;
     -webkit-transform: all .3s;
@@ -88,7 +91,7 @@ a{
     color:var(--primary-color);
 }
 
-/* top banner */
+/*-------- top banner -------------*/
 
 .banner_area{
     padding: 100px 0;
@@ -104,7 +107,7 @@ a{
     color:var(--secondary-color);
 }
 
-/* card section */
+/*---------- card section -----------*/
 .card-title{
     font-size: 1.5rem;
     font-weight: 700;
@@ -121,10 +124,28 @@ a{
     font-size: 2.25rem;
     color: var(--primary-color);
 }
+/*------- formal ------------*/
+.card_img.formal{
+    background-color: #fff;
+}
+
+/*----------- notice box --------*/
+.notice_container{
+    margin-top: 100px;
+}
+/* .notice_box{
+    height: 135px;
+} */
+
+.notice_text_box h4{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:var(--secondary-color);
+}
 
 
 /* ========= responsive design =========== */
-@media screen and (min-width:992px) and (max-width:1199px) {
+@media screen and (min-width:992px) and (max-width:1200px) {
     .header_container{
         width: 100%;
     }
@@ -156,5 +177,6 @@ a{
     .header_nav_items{
         gap:20px
     }
+
 }
 
