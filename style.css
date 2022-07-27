@@ -133,9 +133,7 @@ p{
 .notice_container{
     margin-top: 100px;
 }
-/* .notice_box{
-    height: 135px;
-} */
+
 
 .notice_text_box h4{
     font-weight: 700;
@@ -144,14 +142,14 @@ p{
 }
 
 footer{
-    background-color: var(--secondary-color);
+    background-color:#DEE1E6 ;
     margin-top: 100px;
 }
 
-
-.footer_logo{
-    margin-left: 150px;
+footer>p{
+    color:var(--secondary-color)
 }
+
 
 
 
@@ -174,8 +172,8 @@ footer{
         gap:20px
     }
 
-    .footer_logo {
-        margin-left: 200px;
+    .footer_logo img {
+        width: 415px;
     }
     
 }
@@ -194,9 +192,7 @@ footer{
         gap:20px
     }
 
-    .footer_logo {
-        margin-left: 120px;
-    }
+
     .footer_logo img {
         width: 315px;
     }
