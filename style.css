@@ -143,6 +143,18 @@ p{
     color:var(--secondary-color);
 }
 
+footer{
+    background-color: var(--secondary-color);
+    margin-top: 100px;
+}
+
+
+.footer_logo{
+    margin-left: 150px;
+}
+
+
+
 
 /* ========= responsive design =========== */
 @media screen and (min-width:992px) and (max-width:1200px) {
@@ -161,6 +173,10 @@ p{
     .header_nav_items{
         gap:20px
     }
+
+    .footer_logo {
+        margin-left: 200px;
+    }
     
 }
 @media screen and (min-width:320px) and (max-width:576px) {
@@ -176,6 +192,13 @@ p{
     }
     .header_nav_items{
         gap:20px
+    }
+
+    .footer_logo {
+        margin-left: 120px;
+    }
+    .footer_logo img {
+        width: 315px;
     }
 
 }
